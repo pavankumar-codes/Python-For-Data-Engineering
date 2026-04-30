@@ -1,3 +1,118 @@
-Welcome to Data Engineering Course with Python
-Lets Start with basics
-made some changes 
+If your goal is Data Engineering (DE), don’t study Python like a general programmer. You need practical, pipeline-focused Python. Most people waste time on OOP-heavy or algorithm-heavy stuff that isn’t directly useful for DE roles.
+
+Here’s a focused roadmap that matches what companies actually expect 👇
+
+🔹 1. Core Python (Must be strong)
+
+This is your foundation—no shortcuts.
+
+Data types (list, dict, set, tuple)
+Loops, conditionals
+Functions (very important)
+List/dict comprehensions
+Exception handling
+File handling (CSV, JSON, TXT)
+
+👉 For DE: You should be able to read, transform, and write data easily
+
+🔹 2. Working with Data (VERY IMPORTANT)
+
+This is where DE actually starts.
+
+Learn:
+Pandas
+NumPy
+Focus on:
+Reading data: CSV, Excel, JSON
+Filtering, grouping, aggregation
+Handling missing data
+Merging/joining datasets
+Basic transformations
+
+👉 If you master Pandas → you’re already ahead of many candidates
+
+🔹 3. File & Data Processing (Real DE work)
+
+You’ll work a lot with files and pipelines.
+
+Working with large files
+JSON parsing
+CSV streaming
+Writing clean data pipelines
+
+👉 Practice:
+
+Read raw logs → clean → save output
+🔹 4. SQL + Python Integration (CRITICAL)
+
+DE = Python + SQL (not optional)
+
+Learn:
+
+Connecting Python to DB using:
+sqlite3
+psycopg2
+Running SQL queries from Python
+Writing data into databases
+
+👉 This is what real pipelines do
+
+🔹 5. APIs & Data Ingestion
+
+Data doesn’t come magically—you fetch it.
+
+Use:
+requests
+Learn:
+GET/POST requests
+JSON responses
+Authentication basics
+
+👉 Example: Fetch data from API → store in DB
+
+🔹 6. Automation & Scripting
+
+DEs automate everything.
+
+Writing reusable scripts
+Scheduling jobs (basic understanding)
+CLI scripts
+
+👉 Think: “Can I automate this task?”
+
+🔹 7. Logging & Debugging (Underrated but important)
+Logging using:
+logging
+Debugging pipelines
+Error tracking
+
+👉 Interviewers LOVE this
+
+🔹 8. Basics of OOP (Don’t overdo)
+
+You don’t need hardcore OOP, just:
+
+Classes
+Objects
+Basic design
+
+👉 Enough to structure pipelines cleanly
+
+🔹 9. Bonus (High Value)
+
+Once basics are strong:
+
+Apache Airflow
+PySpark
+Docker
+🔥 What YOU should do (based on your goal: 20+ LPA DE role)
+
+Don’t just study — build projects
+
+Must-do projects:
+ETL Pipeline
+API → Pandas → Clean → Store in DB
+Log Processing System
+Read raw logs → transform → analytics
+SQL + Python Pipeline
+Extract → Transform → Load into database
